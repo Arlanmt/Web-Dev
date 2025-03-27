@@ -1,0 +1,21 @@
+.navbar {
+    display: flex;
+    justify-content: center; /* Центрирует элементы */
+    background-color: #f8f9fa; /* Цвет фона, можно изменить */
+    padding: 10px;
+    gap: 15px; /* Расстояние между ссылками */
+  }
+  
+  .navbar a {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    padding: 8px 15px;
+    border-radius: 5px;
+  }
+  
+  .navbar a:hover {
+    background-color: #007bff;
+    color: white;
+  }
+  
